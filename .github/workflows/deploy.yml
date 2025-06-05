@@ -11,9 +11,9 @@ jobs:
     steps:
       - name: 读取仓库内容
         uses: actions/checkout@v4
-        run: pwd
       - name: 安装依赖&项目打包
         run: |
+          pwd
           npm install
           npm run build
       - name: 部署
