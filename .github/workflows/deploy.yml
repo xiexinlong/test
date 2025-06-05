@@ -1,7 +1,8 @@
 name: 打包vue项目
 on: push
 
-permissions: contents:write
+permissions:
+  contents: write
 
 jobs:
   npm-build:
